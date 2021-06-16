@@ -8,7 +8,7 @@
   padding: 0;
 }
 
-nav{
+/* nav{
   display: flex;
   justify-content: space-between;
   color: var(--couleur-primaire_transparent);
@@ -37,7 +37,7 @@ section{
   height: 00px;
   background-color: var(--couleur-primaire_transparent);
   font-family:'Staatliches', sans-serif ;
-}
+} */
 
 body{
   background-color: var(--couleur-tertiaire);
@@ -52,6 +52,7 @@ body{
   flex-direction: column;
   justify-content: center;
   height: 100%;
+  font-family: 'Staatliches', cursive;
 
 }
 .main_text--aera{

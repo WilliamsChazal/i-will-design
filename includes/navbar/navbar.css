@@ -8,15 +8,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--couleur-tertiaire);
-    color: var(--couleur-primaire_transparent);
+    background-color: var(--couleur-primaire_transparent);
+    color: var(--couleur-tertiaire);
     height: 56px;
+    border: var(--couleur-primaire_transparent) solid 3px;
+    font-family: 'Staatliches', cursive;
+
 }
 
 .navbar__title{
     font-size: 1.5rem;
     margin: .5rem;
     margin-left: 1rem;
+    font-family: 'kremlin';
     
 }
 
@@ -25,25 +29,30 @@
     margin: 0;
     padding: 0;
     display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 18px;
 }
 
 .navbar__links li {
     list-style: none;
+    width: 200px;
 }
 
 .navbar__links li a {
     text-decoration: none;
-    color: var(--couleur-primaire_transparent);
+    color: var(--couleur-tertiaire);
     padding: 1rem;
     display: block;
-    border: solid 2px var(--couleur-primaire_transparent);
 
 }
 
 .navbar__links li a:hover{
     letter-spacing: 5px;
-    background-color: grey;
-    border: white 1px solid;
+    background-color: var(--couleur-secondaire);
+    color: var(--couleur-tertiaire);
+    border-radius: 5%;
 }
 
 .toggle-button{
