@@ -3,10 +3,15 @@
     --couleur-secondaire:#b10420;
     --couleur-tertiaire:#EDF2F4;
 }
+@font-face {
+  font-family:'kremlin';
+  src: url(assets/fonts/kremlin.ttf) format('truetype');
+}
+
 *{
   margin: 0;
   padding: 0;
-  border: solid red 1px;
+  /* border: solid red 1px; */
 }
 
 
@@ -15,7 +20,7 @@ body{
 }
 .main{
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
   background-color:var(--couleur-tertiaire);
   height: 90vh;
   font-size: 30px;
@@ -45,6 +50,7 @@ body{
 }
 
 .main_text h1 {
+  color: var(--couleur-primaire_transparent);
   font-family: 'kremlin';
   font-size: 100px;
 }
@@ -89,17 +95,61 @@ body{
 
 .about-me{
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
   padding: 60px;
   background-color: var(--couleur-primaire_transparent);
   color: var(--couleur-tertiaire);
   font-family: 'Staatliches', cursive;
 }
 
+.about-me_information{
+  width: 50%;
+}
+.about-me_photo{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
 .about-me h2{
- 
   font-size: 56px;
 }
+.about-me p{
+  padding-top: 15px;
+  line-height: 2;
+}
+
+.portrait{
+  width: 300px;
+  border-radius: 50%;
+  border: solid 5px var(--couleur-tertiaire);
+}
+
+.about-me_information--button{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.about-me_button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  background-color: var(--couleur-tertiaire);
+  color: var(--couleur-primaire_transparent);
+  width: 250px;
+  height: 30px;
+  border-radius: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 28px;
+}
+
+.about-me_button:hover{
+  background-color: var(--couleur-secondaire);
+  color: white;
+  box-shadow: 5px 5px 2px 1px var(--couleur-tertiaire);
+}
+
 
 @media only screen and (max-width: 650px){
 /*   .main{
