@@ -22,13 +22,11 @@ body{
   display: flex;
   flex-direction: column;
   background-color:var(--couleur-tertiaire);
-  height: 90vh;
+  height: 80vh;
   font-size: 30px;
 }
 
-.main_ink{
-  justify-content: flex-end;
-}
+
 
 .main_text{
   display: flex;
@@ -70,6 +68,14 @@ body{
   color: var(--couleur-secondaire);
   letter-spacing: 5px;
   font-size: 56px;
+  
+}
+
+.main_text--metier{
+  display: flex;
+  justify-content: flex-end;
+  width: 60%;
+  padding-top: 10px;
 }
 
 .main_text h2:hover, #blue_text:hover {
@@ -177,6 +183,13 @@ body{
     justify-content: center;
     height: 100%;
     font-family: 'Staatliches', cursive;
+  }
+
+  .main_text--metier{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 10px;
   }
   .main_text--slogan{
     display: flex;
