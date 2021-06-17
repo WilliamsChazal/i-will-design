@@ -24,10 +24,11 @@
     <section class='main'>
             <div class='main_text'>
                 <div class='main_text--aera'>
-                    <h1>Williams Chazal</h1>
-                    <h3>WebDesign & Dev'Web</h3>
+                    <h1><?php include ('assets/animations/titre-animation-1.php')?></h1>
+                    <div> <h3 class="main_text--slogan">"Des idées au pluriel"</h3></div>
+                    <h2 class='bounce-in-right'>WebDesign & Dev'Web</h2>
                         <div class="main_text--button">
-                        Qui suis je </div>
+                        Portfolio </div>
                 </div>
                 <div class="main_text--socials"></div>
             </div>
