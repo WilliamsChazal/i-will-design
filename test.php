@@ -1,6 +1,9 @@
 <?php include ('header.php')?>
 <?php include ('includes/navbar/navbar.php')?>
     <section class='main'>
+<!--         <div class="main_ink">
+            <img src="assets/images/ink-1.png" alt=""> -->
+        </div>
             <div class='main_text'>
                 <div class='main_text--aera'>
                      <h1 class='bounce-in-left'>Williams Chazal</h1>
