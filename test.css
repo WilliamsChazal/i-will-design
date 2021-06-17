@@ -134,6 +134,10 @@ body{
   border-radius: 50%;
   border: solid 5px var(--couleur-tertiaire);
 }
+.socials{
+  display: flex;
+  justify-content: end;
+}
 
 .about-me_information--button{
   display: flex;
@@ -207,6 +211,9 @@ body{
     font-family: 'kremlin';
     font-size: 48px;
    justify-content: center;
+  }
+  .main_text h1:hover{
+    font-family: 'kremlin';
   }
   .main_text--button{
     margin-top: 3rem;
