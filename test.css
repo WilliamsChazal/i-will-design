@@ -11,7 +11,7 @@
 *{
   margin: 0;
   padding: 0;
-  border: solid red 1px;
+  /* border: solid red 1px; */
 }
 
 
@@ -165,6 +165,34 @@ body{
   box-shadow: 5px 5px 2px 1px var(--couleur-tertiaire);
 }
 
+
+
+
+
+.skills{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Staatliches', cursive;
+  background-color: var(--couleur-tertiaire);
+}
+.portfolio{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Staatliches', cursive;
+  background-color: var(--couleur-primaire_transparent);
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Staatliches', cursive;
+  background-color: var(--couleur-tertiaire);
+}
 
 @media only screen and (max-width: 650px){
 /*   .main{

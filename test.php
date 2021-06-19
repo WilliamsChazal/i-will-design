@@ -28,7 +28,9 @@
         </div>
         
     </section>
-    <section></section>
+    <section class='skills'>Que sais je faire.</section>
+    <section class='portfolio'>Ce que j'ai déja fait</section>
+    <section class='contact'>formulaire</section>
     <footer></footer>
 </body>
 </html>
