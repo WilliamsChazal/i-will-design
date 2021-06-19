@@ -1,55 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
-    <title>I will Design</title>
-</head>
-<body>
-<div class="main">
-        <!-- Début Navabr  -->
-        <nav class="navbar" id='navbar'>
-    <div class="navbar__title">I Will Design</div>
-    <a href="#" class="toggle-button" id="toggle__button">
+<?php include ('header.php')?>
+<?php include ('includes/navbar/navbar.php')?>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <section class='main'>
+<!--         <div class="main_ink">
+            <img src="assets/images/ink-1.png" alt=""> -->
+        </div>
+            <div class='main_text'>
+                <div class='main_text--aera'>
+                     <h1 class='bounce-in-left'>Williams Chazal</h1>
+                    <div class='bounce-in-left'> <h3 class="main_text--slogan">"Des idées au pluriel"</h3></div>
+                    <div class="main_text--metier"><h2 class='bounce-in-right'>WebDesign  <span id="blue_text">Dev'Web</span></h2></div>
+                        <a href="/Portfolio/includes/projets/projets.php"><div class="main_text--button">
+                        Portfolio </div></a>
+                </div>
+            </div>
+    </section>
+    <section class="about-me">
+        <div class="about-me_information">
+            <h2>Qui suis je ?</h2>
+            <p>Hello Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam officiis cum laboriosam ullam corporis assumenda dolores ex illum consectetur accusamus, expedita, perspiciatis illo odit sed sapiente debitis laudantium hic fuga.
+            Amet quia qui aliquam quod, repellendus porro impedit soluta itaque veniam? A adipisci facere temporibus quam culpa aspernatur quibusdam est magni distinctio expedita. Sed vel error modi, sequi et ipsam!</p>
+                <div class="about-me_information--button">
+                     <div class="about-me_button">Curriculum Vitae</div> 
+                </div>    
+        </div>
+        <div class="about-me_photo">
+            <img src="assets/images/photo.png" alt="Williams Chazal portrait" class="portrait">
+        </div>
         
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-    </a>
-    <div class="navbar__links" id="navbar__links">
-        <ul>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="test.php">Test</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="admin/admin.php">Connexion</a></li>   
-        </ul>
-    </div>
-</nav>
-        <!-- fin Navabr  -->
-        <!-- Début bloc titre  -->
-            <div class="main_bloc">
-                <div class="main_bloc--titre"><h1>I will Design</h1></div>
-                <div class="main_bloc--slogan"><h3>"Des idées au Pluriel</h3></div>
-            </div>
-        <!-- fin bloc titre  -->
-        <!-- Début slide show  -->
-        <div class="main_slideshow">
-            <div class="main_slideshow--fade">
-                <div><img src="assets/images/ciel-1.jpg" alt="" ></div>
-                <div class="main_slideshow--texte">Texte</div>
-            </div>
-        </div>
-        <!-- Début slide show  -->
-        <!-- Début présentation  -->
-        <div class="main_presentation">
-            <div class="main_presentation--bloc">
-                <h3>Qui suis je </h3>
-            </div>
-        </div>
-</div>
+    </section>
+    <section class='skills'>Que sais je faire.</section>
 
-<script src="scripts/main.js"></script>
+    <section class='portfolio' id="portfolio_ancre">
+    <?php include ('includes/projets/projets.php')?>
+    </section>
+
+    <section class='contact'>
+        <div class="contact_titre"><h3>Contactez moi</h3></div>
+<!--         <div class="contact_texte"></div> -->
+        <div class="form">
+        <?php include ('includes/contact-form/index.php')?>
+        </div>
+    </section>
+ 
+    <?php include ('includes/footer/footer.php')?>
+  <script src="scripts/main.js"></script>  
 </body>
 </html>
