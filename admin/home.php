@@ -35,7 +35,7 @@ foreach ($result as $projet) {
 }
 
 ?><br>
-<a href="admin.php"><button>Se déconnecter</button></a><br>
+<a href="admin.php"><button>Retour</button></a><br>
    
 </body>
 </html>

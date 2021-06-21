@@ -12,7 +12,7 @@ session_start();
 </head>
 <body>
 
-            <form action="add-form-handler.php" method="post">
+            <form action="add-form-handler.php" method="post" enctype="multipart/form-data"> 
         <div>
             <label for="input_title">Titre</label>
             <input type="text" id="input_title" name="project_title">

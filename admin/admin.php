@@ -25,7 +25,7 @@
           <button><a href="register-form.php">S'inscrire</a></button>
        </div>
 
-       <button> <a href="../index.php">Déconnexion</button></a>
+       <button> <a href="end-session.php">Déconnexion</button></a>
     </form>
 </body>
 </html>

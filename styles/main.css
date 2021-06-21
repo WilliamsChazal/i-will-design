@@ -5,9 +5,9 @@
     --couleur-degrade:linear-gradient(rgba(07,14,30, 0.5) rgba(217,4,21, 0.5));
 }
 
-*{
+/* *{
   border: solid red 1px;
-}
+} */
 
 html{
   scroll-behavior: smooth;
