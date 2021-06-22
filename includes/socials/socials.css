@@ -1,0 +1,54 @@
+:root{
+    --couleur-primaire_transparent:rgba(07,14,30);
+    --couleur-secondaire:#b10420;
+    --couleur-tertiaire:#EDF2F4;
+}
+.social{
+    position: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translate(-290px,0);
+}
+
+.social a{
+    color: var(--couleur-tertiaire);
+    background-color: var(--couleur-primaire_transparent);
+    font-family: 'Staatliches', cursive;
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+    margin: 5px;
+    padding:20px;
+    width: 300px;
+    text-align:right;
+    border-radius: 50px;
+    border: var(--couleur-tertiaire) 2px solid;
+    transition: 1s;
+    transition-property: transform;
+}
+
+.social a:hover{
+    transform:translate(140px,0);
+}
+
+.social i{
+    margin-left: 10px;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.social a:nth-child(1) i{
+    color: #4C6EF5
+}
+.social a:nth-child(2) i{
+    color: #0A66C2
+}
+.social a:nth-child(3) i{
+    color: transparent;
+    background-image: linear-gradient(45deg, #FFDF9E, #E56969, #8A49A1);
+    -webkit-background-clip: text;
+    font-weight: 600;
+}
