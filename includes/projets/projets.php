@@ -26,9 +26,9 @@
 
 <!-- Modal content -->
 
-<div class="modal-content" id="demo">
+<div class="modal-content" >
   <span class="close">&times;</span>
-  <div class="modal_projet">
+  <div class="modal_projet" id="demo">
 
   <?php include ('includes/modal/modal.php')?>
 

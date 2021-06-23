@@ -25,3 +25,11 @@ window.onclick = function(event) {
 }
 
 //fetch en JS// 
+getText("admin/projects-details.php?id=<?=$result['idprojets']?>");
+
+async function getText(file) {
+  let myObject = await fetch(file);
+  let myText = await myObject.text();
+  document.getElementById("demo").innerHTML = myText;
+  console.log(myText);
+}

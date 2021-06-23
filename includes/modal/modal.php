@@ -21,24 +21,14 @@
     <title>Document</title>
 </head>
 <body>
-<div  id="demo"><?=$result['idprojets']?>
     <div class="portfolio_projects--cards--titre"><h3><?=$result['projets_title']?></h3></div>
         <div class="portfolio_projects--cards--image"><img src="assets/images/<?=$result['projets_imagee']?>" alt=""></div>
         <div class="portfolio_projects--cards--texte"><?=$result['projets_context']?>
     </div>
-</div>
 
 
-<script>
-getText("<?=$result['idprojets']?>");
 
-async function getText(file) {
-  let myObject = await fetch(file);
-  let myText = await myObject.text();
-  document.getElementById("demo").innerHTML = myText;
-  console.log(getText);
-}
-</script>
+
 
 </body>
 </html>
