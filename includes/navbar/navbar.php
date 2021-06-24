@@ -20,7 +20,7 @@
         </div>
 </nav>
     <div id="progress-container">
-        <div class="progress-bar" id="progress-bar"></div>
+        <div class="progress-bar" id="progress-bar" style="width: 0px" ></div>
     </div>
 </div>
 

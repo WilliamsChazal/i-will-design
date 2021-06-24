@@ -1,15 +1,15 @@
 // Get the modal
 var modal = document.getElementById("myModal");
 
-// Get the button that opens the modal
-var btn = document.getElementById("btn_modal");
+
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on the button, open the modal
-btn.onclick = function() {
+function openModal(id) {
   modal.style.display = "block";
+  getText("includes/modal/modal.php?id="+id);
 }
 
 // When the user clicks on <span> (x), close the modal
@@ -25,10 +25,11 @@ window.onclick = function(event) {
 }
 
 //fetch en JS// 
-getText("admin/projects-details.php?id=<?=$result['idprojets']?>");
+
 
 async function getText(file) {
   let myObject = await fetch(file);
+  console.log(myObject)
   let myText = await myObject.text();
   document.getElementById("demo").innerHTML = myText;
   console.log(myText);
