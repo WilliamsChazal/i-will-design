@@ -1,0 +1,75 @@
+.main_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Staatliches', cursive;
+  }
+  .main_text--aera{
+    margin-left: 60px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  
+  .main_text--slogan{
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+    letter-spacing: 5px;
+    padding-left: 60px;
+    color: var(--couleur-secondaire);
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 48px;
+  }
+  
+  .main_text h1 {
+    color: var(--couleur-primaire_transparent);
+    font-family: 'kremlin';
+    font-size: 126px;
+  }
+  
+  /* .main_text h1:hover{
+    font-family: 'kremlin';
+    font-size: 126px;
+    letter-spacing: 5px;
+  } */
+  
+  .main_text h2{
+    color: var(--couleur-secondaire);
+    letter-spacing: 5px;
+    font-size: 56px;
+    
+  }
+  
+  .main_text--metier{
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+    padding-top: 10px;
+  }
+  
+  .main_text h2:hover, #blue_text:hover {
+    letter-spacing: 5px;
+  }
+  #blue_text{
+    color:var(--couleur-primaire_transparent);
+  }
+  
+  
+  .main_text--button{
+    margin-top: 3rem;
+    background-color: var(--couleur-primaire_transparent);
+    color: white;
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  
+  .main_text--button:hover{
+    background-color: var(--couleur-secondaire);
+    color: white;
+    box-shadow: 5px 5px 2px 1px var(--couleur-primaire_transparent);
+  }
