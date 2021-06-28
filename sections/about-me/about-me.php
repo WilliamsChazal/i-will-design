@@ -1,11 +1,11 @@
-<div class="container">
+<!-- <div class="container">
   <div class="texte"></div>
   <div class="portrait"></div>
 </div>
+ -->
 
 
-
-<!-- <div class="about-me_information">
+<div class="about-me_information">
                     <div class="about-me_information--titre"><h2>Qui suis je ?</h2></div>
 
                     <div class="about-me_information--texte">
@@ -19,4 +19,4 @@
 </div>
 <div class="about-me_photo">
                     <img src="assets/images/photo.png" alt="Williams Chazal portrait" class="portrait"></div>
-</div> -->
+</div>
