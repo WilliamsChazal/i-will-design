@@ -4,19 +4,21 @@
       height: 70vh;
       font-family: 'Staatliches', cursive;
       background-color: var(--couleur-tertiaire);
+      margin-top: 60px;
     }
 
-.container {
+.container_skills {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.5fr;
     gap: 0px 30px;
     grid-auto-flow: row;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+   justify-content: center;
   }
-/* *{
+*{
     border: red solid 1px;
-} */
+}
 
   
