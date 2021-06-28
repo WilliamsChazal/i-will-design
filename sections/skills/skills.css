@@ -5,26 +5,50 @@
       font-family: 'Staatliches', cursive;
       background-color: var(--couleur-tertiaire);
       margin-top: 40px;
-      padding-left: 20px;
+      margin-bottom: 40px;
+      padding-left: 10px;
+      padding-right: 10px;
     }
 .skills_titre{
   text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
 }
 .container_skills {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.5fr;
-    gap: 0px 30px;
+    gap: 0px 10px;
     grid-auto-flow: row;
     display: flex;
     flex-direction: row;
    justify-content: center;
+ 
   }
 /* *{
     border: red solid 1px;
 } */
 
-.skills_image--size{
-  width: 50px;
+
+
+.container_skills--titre{
+  text-align: center;
+  color: var(--couleur-secondaire);
+  font-size: 26px;
+  text-decoration: underline;
 }
-  
+
+.container_skills--image{
+  display: flex;
+  justify-content: center;
+  margin: 30px 30px;
+}
+
+.skills_image--size{
+  width: 150px;
+}
+
+.container_skills--texte{
+  display: flex;
+  text-align: center;
+}
