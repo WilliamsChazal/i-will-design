@@ -1,6 +1,21 @@
+/* .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.5fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "texte portrait";
+}
+
+.texte { grid-area: texte; }
+
+.portrait { grid-area: portrait; } */
+
+
 /* Début CSS section about-me*/
 *{
-  border: black 1px solid;
+  border: red 1px solid;
 }
   
   .about-me_information{
@@ -52,3 +67,15 @@
     box-shadow: 5px 5px 2px 1px var(--couleur-tertiaire);
   }
   /* Fin CSS section about-me*/
+
+  @media only screen and (max-width: 1024px){
+    .about-me{
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .about-me_information{
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
