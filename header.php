@@ -15,9 +15,11 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="includes/navbar/navbar.css">
     <link rel="stylesheet" href="includes/socials/socials.css">
-    <link rel="stylesheet" href="assets/animations/titre-animation-1.css">
-    <link rel="stylesheet" href="includes/skills/skills.css">
-    <link rel="stylesheet" href="includes/projets/projets.css">
+    <!-- <link rel="stylesheet" href="assets/animations/titre-animation-1.css"> -->
+    <link rel="stylesheet" href="sections/landing/landing.css">
+    <link rel="stylesheet" href="sections/skills/skills.css">
+    <link rel="stylesheet" href="sections/projets/projets.css">
+    <link rel="stylesheet" href="sections/about-me/about-me.css">
     <link rel="stylesheet" href="includes/timeline/timeline.css">
     <link rel="stylesheet" href="includes/contact-form/style.css">  
     <link rel="stylesheet" href="includes/footer/footer.css">

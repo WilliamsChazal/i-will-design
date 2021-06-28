@@ -7,7 +7,7 @@
     z-index: 99;
 }
 #progress-container{
-    padding-top: 82px;
+    padding-top: 80px;
     background-color: var(--couleur-tertiaire); 
   }
   .progress-bar {

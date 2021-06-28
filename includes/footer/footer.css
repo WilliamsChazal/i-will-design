@@ -25,14 +25,13 @@
     padding: 0;
     display: flex;
     list-style-type: none;
-    width: 700px;
     justify-content: space-around;
     font-size: 18px;
 }
 
 .footer__links li {
     list-style: none;
-    width: 200px;
+    width: 100px;
 }
 
 .footer__links li a {

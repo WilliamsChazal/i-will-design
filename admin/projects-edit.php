@@ -68,7 +68,23 @@ if($_SESSION['username']){
 
     </form>
 
+    <form action="edit-picture-handler.php" method="post" enctype="multipart/form-data">
+
+<div>
+    <label for="input_picture">Aperçu</label>
+    <input type="file" id="input_picture" name="project_picture">
+    <input type="hidden" name="project_id" value='<?= $result['idprojets'] ?>'>
+</div>
+
+<div>
+    <input type="submit">
+</div>
+
+</form>
+
+
+<a href="projects-details.php?id=<?=$result['idprojets']?>"><button>Retour</button></a>
 </body>
 </html>
-<a href="projects-details.php?id=<?=$result['idprojets']?>"><button>Retour</button></a>
+
 

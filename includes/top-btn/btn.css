@@ -5,7 +5,7 @@ body {
   
   .intro-copy {
     padding: 1em;
-    margin: 50vh auto;
+    /* margin: 50vh auto */;
     max-width: 15em;
     font-family: Helvetica;
     font-weight: lighter;

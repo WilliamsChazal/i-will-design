@@ -61,10 +61,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 80%;
   padding-top: 10px;
   padding-bottom: 10px;
 
 }
+
+
+#image{
+  height: 200px;
+  width: 250px;
+}
+
 .portfolio_projects--cards--texte{
   align-items: center;
   text-align: justify;
@@ -128,7 +136,7 @@
   display: grid; 
   grid-template-columns: 0.4fr 1.5fr; 
   grid-template-rows: 0.5fr; 
-  gap: 0px 0px; 
+  gap: px 0px; 
   grid-template-areas: 
     "logo Titre"; 
 }
@@ -203,6 +211,7 @@
   flex-wrap: wrap;
   padding-top: 40px;
   justify-content: space-around;
+  row-gap: 15px;
 }
 .modal-content {
   background-color: var(--couleur-tertiaire);

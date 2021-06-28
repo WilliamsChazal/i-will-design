@@ -13,36 +13,19 @@
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
             <section class='main'>
+            <?php include ('sections/landing/landing.php')?>
 
-                    <div class='main_text'>
-                        <div class='main_text--aera'>
-                            <h1 class='bounce-in-left'>Williams Chazal</h1>
-                            <div class='bounce-in-left'> <h3 class="main_text--slogan">"Des idées au pluriel"</h3></div>
-                            <div class="main_text--metier"><h2 class='bounce-in-right'>WebDesign  <span id="blue_text">Dev'Web</span></h2></div>
-                                <a href="#projet_ancre"><div class="main_text--button">
-                                Portfolio </div></a>
-                        </div>
-                    </div>
-                    </div> 
             </section>
             <section class="about-me" id="about-me_ancre">
-                <div class="about-me_information">
-                    <h2>Qui suis je ?</h2>
-                    <p>Hello Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam officiis cum laboriosam ullam corporis assumenda dolores ex illum consectetur accusamus, expedita, perspiciatis illo odit sed sapiente debitis laudantium hic fuga.
-                    Amet quia qui aliquam quod, repellendus porro impedit soluta itaque veniam? A adipisci facere temporibus quam culpa aspernatur quibusdam est magni distinctio expedita. Sed vel error modi, sequi et ipsam!</p>
-                        <div class="about-me_information--button">
-                            <div class="about-me_button">Curriculum Vitae</div> 
-                        </div>    
-                </div>
-                <div class="about-me_photo">
-                    <img src="assets/images/photo.png" alt="Williams Chazal portrait" class="portrait">
-                </div>
                 
+            <?php include ('sections/about-me/about-me.php')?>
             </section>
-            <section ><?php include ('includes/skills/skills.php')?></section>
+
+            <section >
+                <?php include ('sections/skills/skills.php')?></section>
 
             <section class='portfolio' id="projet_ancre">
-            <?php include ('includes/projets/projets.php')?>
+            <?php include ('sections/projets/projets.php')?>
             </section>
 
             <section class='contact' id="contact_ancre">
@@ -56,6 +39,6 @@
     <?php include ('includes/footer/footer.php')?>
     
   <script src="scripts/main.js"></script>  
-  <script src="includes/projets/projets.js"></script>
+  <script src="sections/projets/projets.js"></script>
 </body>
 </html>

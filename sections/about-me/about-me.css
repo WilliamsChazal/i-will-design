@@ -1,13 +1,5 @@
 /* Début CSS section about-me*/
-.about-me{
-    display: flex;
-    flex-direction: row;
-    padding: 60px;
-    background-color: var(--couleur-primaire_transparent);
-    color: var(--couleur-tertiaire);
-    font-family: 'Staatliches', cursive;
-    width: 100%;
-  }
+
   
   .about-me_information{
     width: 50%;
