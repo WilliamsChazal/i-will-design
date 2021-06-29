@@ -1,5 +1,5 @@
 <div class='about'>
-    <div class="about_titre"><h2>Que sais je faire</h2></div>
+    <div class="about_titre"><h2>Que suis je ?</h2></div>
 <div class="container_info">
     <div class="texte_info">
       <p>Hello Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam officiis cum laboriosam ullam corporis assumenda dolores ex illum consectetur accusamus, expedita, perspiciatis illo odit sed sapiente debitis laudantium hic fuga.

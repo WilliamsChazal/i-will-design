@@ -78,5 +78,8 @@
       padding-right: 10px;
       font-size: 22px;
     }
+    .skills_image--size{
+      width: 100px;
+    }
 
 }
