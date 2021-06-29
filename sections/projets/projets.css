@@ -4,9 +4,7 @@
     --couleur-tertiaire:#EDF2F4;
     --couleur-degrade:linear-gradient(rgba(07,14,30, 0.5) rgba(217,4,21, 0.5));
 }
-/* *{
-  border: red 1px solid;
-} */
+
 .portfolio {
     display: flex;
     flex-direction: column;

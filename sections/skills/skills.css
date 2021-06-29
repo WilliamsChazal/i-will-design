@@ -6,9 +6,9 @@
       background-color: var(--couleur-tertiaire);
       margin-top: 40px;
       margin-bottom: 40px;
-      padding-left: 10px;
-      padding-right: 10px;
+
     }
+
 .skills_titre{
   text-align: center;
   font-size: 36px;
@@ -17,7 +17,7 @@
 .container_skills {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.5fr;
+    grid-template-rows: 1fr;
     gap: 0px 10px;
     grid-auto-flow: row;
     display: flex;

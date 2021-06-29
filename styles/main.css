@@ -15,15 +15,6 @@ a{
   text-decoration: none;
 }
 
-  .socials_box{
-    width: 100%;
-  flex-direction: row;
-  display: flex;
-  justify-content: flex-end;
-  margin-left: 550px ;
-  z-index: 150;
-
-}  
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
@@ -53,8 +44,6 @@ a{
 *{
   margin: 0;
   padding: 0;
- /*  border: solid red 1px; */
- /*  overflow-x: hidden; */
 }
 
 
@@ -63,40 +52,9 @@ body{
   overflow-x: hidden;
   width: 100vw;
 }
-/* Debut CSS section main*/
-.main{
-/*   display: flex;
-  flex-direction: column; */
-  background-color:var(--couleur-tertiaire);
-  height: 100vh;
-  font-size: 30px;
-
-}
-
-
-#blue_text{
-  color:var(--couleur-primaire_transparent);
-}
-
-
-/* Fin CSS section main*/
 
 
 
-/* Début CSS section about-me*/
-.about-me{
-  display: flex;
-  flex-direction: row;
-  padding: 60px;
-  background-color: var(--couleur-primaire_transparent);
-  color: var(--couleur-tertiaire);
-  font-family: 'Staatliches', cursive;
-}
-
-
-
-
-/* Début CSS section contact*/
 .contact{
   display: flex;
   flex-direction: column;
@@ -115,7 +73,7 @@ body{
 
 
 
-/* Fin CSS section contact*/
+
 
 
 

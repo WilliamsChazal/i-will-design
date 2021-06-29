@@ -1,81 +1,69 @@
-/* .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 0.5fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "texte portrait";
-}
-
-.texte { grid-area: texte; }
-
-.portrait { grid-area: portrait; } */
-
-
-/* Début CSS section about-me*/
 *{
-  border: red 1px solid;
+  border: red 1px solid; 
+} 
+.about-me{
+  display: flex;
+  flex-direction: row;
+  padding: 60px;
+  background-color: var(--couleur-primaire_transparent);
+  color: var(--couleur-tertiaire);
+  font-family: 'Staatliches', cursive;
 }
-  
-  .about-me_information{
-    width: 50%;
+.about{
+  margin-bottom: 30px;
+}
+.about_titre{
+  text-align: center;
+}
+.container_info {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+.image_info{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.texte_info{
+  width: 50%;
+
+}
+
+.portrait_info{
+  width: 400px;
+  border: solid 5px var(--couleur-tertiaire);
+}
+
+@media only screen and (max-width: 1024px){
+  .about-me{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: var(--couleur-primaire_transparent);
+    color: var(--couleur-tertiaire);
+    font-family: 'Staatliches', cursive;
   }
-  .about-me_photo{
-    width: 50%;
+  .container_info{
+    display: flex;
+    flex-wrap: wrap;
+  }
+ 
+  .texte_info{
+    width: 100%;
+  }
+  .image_info{
+    width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-top: 15px;
   }
-  .about-me h2{
-    font-size: 56px;
-  }
-  .about-me p{
-    padding-top: 15px;
-    line-height: 2;
-  }
-  
-  .portrait{
+  .portrait_info{
     width: 300px;
-    border-radius: 50%;
     border: solid 5px var(--couleur-tertiaire);
   }
-
-  
-  .about-me_information--button{
-    display: flex;
-    justify-content: flex-end;
-  }
-  
-  .about-me_button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 3rem;
-    background-color: var(--couleur-tertiaire);
-    color: var(--couleur-primaire_transparent);
-    width: 250px;
-    height: 30px;
-    border-radius: 40px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 28px;
-  }
-  
-  .about-me_button:hover{
-    background-color: var(--couleur-secondaire);
-    color: white;
-    box-shadow: 5px 5px 2px 1px var(--couleur-tertiaire);
-  }
-  /* Fin CSS section about-me*/
-
-  @media only screen and (max-width: 1024px){
-    .about-me{
-      display: flex;
-      flex-wrap: wrap;
-    }
-
-    .about-me_information{
-      display: flex;
-      flex-wrap: wrap;
-    }
-  }
+} 
+ 
