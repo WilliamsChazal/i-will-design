@@ -32,13 +32,13 @@
 
 .footer__links li {
     list-style: none;
-    width: 100px;
+    width: 150px;
 }
 
 .footer__links li a {
     text-decoration: none;
     color: var(--couleur-tertiaire);
-    padding: 1rem;
+    /* padding: 1rem; */
     display: block;
 
 }
