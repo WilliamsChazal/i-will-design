@@ -9,7 +9,9 @@
 
 <?php include ('header.php')?>
 <?php include ('includes/navbar/navbar.php')?>
-
+<section class="container_socials">
+<?php include ('includes/socials/socials.php')?>
+</section>
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
             <section class='main'>

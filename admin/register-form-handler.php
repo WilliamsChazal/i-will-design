@@ -20,7 +20,7 @@ if(isset($_POST['username'])&&!empty($_POST['username'])&&isset($_POST['email'])
         $query->bindValue(':password', $password_encrypt, PDO::PARAM_STR);
         $query->execute();
         echo 'Sucess';
-        echo'<br><a href=index.php> Retour </a>';
+        echo'<br><a href=admin.php> Retour </a>';
         
     }else{
         echo 'Les mots de passe ne sont pas identiques';
