@@ -1,19 +1,20 @@
 <?php
 session_start();
 
-if($_SESSION['username']){
-    echo $_SESSION['success'];
+
+    
     require_once('db-connect.php');
-    $_sql = 'SELECT * FROM `projets`';
+    $_sql = 'SELECT * FROM `blog`';
     $query = $db->prepare($_sql);
     $query ->execute();
     $result = $query->fetchALL(PDO::FETCH_ASSOC);
     /* var_dump($result); */
-}
+
 
 
 
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -24,19 +25,18 @@ if($_SESSION['username']){
     <title>Document</title>
 </head>
 <body>
-<div class="admin_projet">
-    <a href="add-form.php"><button>Ajouter un projet</button></a><br>
+    <a href="blog-form.php"><button>Ajouter un article</button></a><br>
 
 <?php
-    foreach ($result as $projet) {
-?>
- <a href="projects-details.php?id=<?=$projet['idprojets']?>"><?=$projet['projets_title']?></a>
-<?php
-    }
-?>
-</div>
-<br>
-<a href="admin.php"><button>Retour</button></a><br>
+
+foreach ($result as $blog) {
+ ?>
+ <a href="blog-details.php?id=<?=$blog['blog_id']?>"><?=$blog['blog_titre']?></a>
+    <?php
+}
+?><br>
+   <a href="index.php"><button>Retour</button></a>
+
    
 </body>
 </html>
