@@ -60,8 +60,8 @@ if($_SESSION['username']){
         
                 // Check if file already exists
                 if (file_exists($target_file)) {
-                    echo "Sorry, file already exists.";
-                    $uploadOk = 0;
+                    echo "file already exists but it's all good bro.";
+                    $uploadOk = 1;
                 }
         
                 // Check file size
@@ -125,8 +125,8 @@ if($_SESSION['username']){
                     
                             // Check if file already exists
                             if (file_exists($target_file)) {
-                                echo "Sorry, file already exists.";
-                                $uploadOk = 0;
+                                echo "file already exists but it's all good bro.";
+                                $uploadOk = 1;
                             }
                     
                             // Check file size
